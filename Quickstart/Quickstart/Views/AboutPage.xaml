@@ -6,7 +6,7 @@
     <!-- Layout children in two rows -->
     <Grid RowDefinitions="Auto,*">
         <Image Source="xamarin_logo.png"
-               BackgroundColor="{OnPlatform iOS=LightSlateGray, Android=#2196F3}"
+               BackgroundColor="{StaticResource AppPrimaryColor}"
                VerticalOptions="Center"
                HeightRequest="64" />
         <!-- Layout children vertically -->
