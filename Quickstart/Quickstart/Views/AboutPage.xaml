@@ -7,11 +7,12 @@
     <Grid RowDefinitions="Auto,*">
         <Image Source="xamarin_logo.png"
                BackgroundColor="{StaticResource AppPrimaryColor}"
+               Opacity="0.85"
                VerticalOptions="Center"
                HeightRequest="64" />
         <!-- Layout children vertically -->
         <StackLayout Grid.Row="1"
-                     Margin="20"
+                     Margin="{StaticResource PageMargin}"
                      Spacing="20">
             <Label FontSize="22">
                 <Label.FormattedText>
